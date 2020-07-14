@@ -1,0 +1,36 @@
+---
+layout: page
+title: Pipelines
+add_to_menu: true
+description: "Meta description for about page"
+keywords: "responsive,jekyll,minimal template"
+---
+
+<!-- Start Looking For  Area -->
+<section class="looking-for-area bg-color3">
+    <div class="looking-for-wrapper section-spacing bminus-30">
+        <div class="container">
+            <div class="section-title text-center">
+            <h3 class="heading-2"><i>systemPipeR</i> Workflows Collection</h3>
+            <p>Browse pipelines that are currently available as part of the <i>systemPipeR</i> toolkit</p>
+            </div>
+            <div class="row">
+                {% for pipeline in site.data.pipelines %}
+                    <div class="col-md-6">
+                        <article class="looking-for-service wow {{pipeline.animation}}" data-wow-duration="1s">
+                            <header class="looking-for-logo">
+                                <a href="{{pipeline.url}}"><img src="{{pipeline.icon}}" alt="{{pipeline.name}}"></a>
+                            </header>
+                            <footer class="looking-for-content">
+                                <h4 class="heading-4"><a href="{{pipeline.url}}">{{pipeline.name}}</a></h4>
+                                <p> {{pipeline.description}}</p>
+                                <a href="{{pipeline.url}}" class="btn-style3 btn mt-3">{{pipeline.button_label}}</a>
+                            </footer>
+                        </article>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Looking For Area -->

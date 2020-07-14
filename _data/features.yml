@@ -1,0 +1,23 @@
+- icon: /assets/images/brainstorm.png
+  title: User Interface
+  subtitle: A workflow control class (SYSargsList) has been added allowing users to manage multiple-step workflows from a single container. This way one can select and execute multiple workflow steps with standard R subsetting syntax and integrating the code with pipe operator. 
+  
+- icon: /assets/images/cwl.png
+  title: Common Workflow Language (CWL)
+  subtitle: systemPipeR is adopting CWL which results in a higher level of standardization of how workflows are designed, described, and executed while broadening its user community.
+  
+- icon: /assets/images/admin.png
+  title: Graphical User Interface
+  subtitle: To enhance user experience on data visualization and to help new users to familiarize the workflow management system, we are developing systemPipeShiny to support interactive graphics in workflow reports. 
+  
+- icon: /assets/images/workflow-2.png
+  title: Workflow Templates
+  subtitle: systemPipeR has become a much more generic data analysis workflow environment that is no longer limited to analyzing just NGS data. Now it can be efficiently used for data analysis tasks in many omics areas, including genomics, proteomics, metabolomics, and drug discovery. In addition, a public workflow repository is available to users to submit and share custom workflows.
+  
+- icon: /assets/images/service-icon3.png
+  title:  Visual, Scientific and Technical Reports
+  subtitle: systemPipeR reporting infrastructure was expanded to three types of interconnected reports each serving a different purpose (i) a scientific report; (ii) a technical report; and (iii) a visual report.
+  
+- icon: /assets/images/container_logo.svg
+  title: Containerization
+  subtitle: Workflow templates will be distributed as Singularity containers.

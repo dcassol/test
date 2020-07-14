@@ -1,0 +1,80 @@
+<!-- Start Footer Area -->
+<footer class="footer-area bg-color3">
+    <div class="footer-wrapper section-spacing bminus-30">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="footer-widget wow fadeIn" data-wow-duration="2s">
+                        <h5 class="footer-title heading-5">systemPipe</h5>
+                        <ul class="footer-category list-inline">
+                            <li><a href="http://www.bioconductor.org/packages/release/bioc/html/systemPipeR.html">Bioconductor</a></li>
+                            <li><a href="https://github.com/systemPipeR">GitHub</a></li>
+                            <li><a href="/pages/faq">Support</a></li>
+                             <li><a href="/pages/contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="footer-widget wow fadeIn" data-wow-duration="2s">
+                        <h5 class="footer-title heading-5">Resources</h5>
+                        <ul class="footer-category list-inline">
+                            <li><a href="http://www.bioconductor.org">Bioconductor</a></li>
+                            <li><a href="https://cran.r-project.org/">CRAN</a></li>
+                            <li><a href="http://manuals.bioinformatics.ucr.edu/home/R_BioCondManual">R & Bioconductor Manual</a></li>
+                            <li><a href="https://guides.github.com/activities/hello-world/">GitHub</a></li>
+                            <li><a href="http://hpcc.ucr.edu/">HPC Center (HPCC)</a></li>
+                            <li><a href="http://girke.bioinformatics.ucr.edu/">Girke Lab</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="footer-widget wow fadeIn" data-wow-duration="4s">
+                        <h5 class="footer-title heading-5">Follow Us</h5>
+                        <ul class="footer-socials list-inline">
+                            {% if site.behance %}
+                                <li class="list-inline-item"><a href="{{site.behance}}"><i class="fa fa-behance"></i></a></li>
+                            {% endif %}
+
+                            {% if site.twitter %}
+                                <li class="list-inline-item"><a href="{{site.twitter}}"><i class="fa fa-twitter"></i></a></li>
+                            {% endif %}
+
+                            {% if site.instagram %}
+                                <li class="list-inline-item"><a href="{{site.instagram}}"><i class="fa fa-instagram"></i></a></li>
+                            {% endif %}
+
+                            {% if site.linkedin %}
+                                <li class="list-inline-item"><a href="{{site.linkedin}}"><i class="fa fa-linkedin"></i></a></li>
+                            {% endif %}
+
+                            {% if site.reddit %}
+                                <li class="list-inline-item"><a href="{{site.reddit}}"><i class="fa fa-reddit"></i></a></li>
+                             {% endif %}
+
+                            {% if site.vimeo %}
+                                <li class="list-inline-item"><a href="{{site.vimeo}}"><i class="fa fa-vimeo"></i></a></li>
+                            {% endif %}
+
+                            {% if site.dribbble %}
+                                 <li class="list-inline-item"><a href="{{site.dribbble}}"><i class="fa fa-dribbble"></i></a></li>
+                            {% endif %}
+
+                            {% if site.github %}
+                                <li class="list-inline-item"><a href="{{site.github}}"><i class="fa fa-github"></i></a></li>
+                            {% endif %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-wrapper">
+        <div class="container">
+            <div class="footer-copyright text-center">
+                <p> &copy; Copyright {{ site.time | date: '%Y' }} {{site.title}} - Site last generated: {{ site.time | date: '%m/%d/%Y' }}</p>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="home-top"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+</footer>
+<!-- End Footer Area -->

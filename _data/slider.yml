@@ -1,0 +1,13 @@
+
+- title: "<span>systemPipeR New Release</span> Available"
+  button_label: "Bioconductor 3.11"
+  button_link: "http://www.bioconductor.org/packages/release/bioc/html/systemPipeR.html"
+
+- title: "<span> Run a pipeline:</span> Quickstart Tutorial"
+  button_label: "View Pipelines"
+  button_link: "/pages/pipelines_area/"
+  
+- title: "<span> New Features:</span> Available "
+  button_label: "Explore"
+  button_link: "/docs/news/"
+

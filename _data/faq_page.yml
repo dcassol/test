@@ -1,0 +1,20 @@
+# pages/faq.html
+- title: General Questions
+  id: General
+  subfaq:
+  - question: Find the workflows
+    answer: Find the workflows
+    
+  - question: Create SYSProject
+    answer: Create SYSProject
+    
+- title: Support Question
+  subfaq: 
+  - question: Install third-party software
+    answer: Install third-party software.
+    
+  - question: Set your PATH
+    answer: Set your PATH
+    
+  - question: Software dependencies
+    answer: Software dependencies

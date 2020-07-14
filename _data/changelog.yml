@@ -1,0 +1,53 @@
+- product_name: Version 1.21.12
+  updated_date: April 24 2020
+  changelog: <li><i class="changelog-fix"></i> Adding 'plotWF' and 'dataWF' method</li>
+
+- product_name: Version 1.21.11
+  updated_date: April 23 2020
+  changelog: <li><i class="changelog-fix"></i> Adding 'magrittr' ImportsFrom</li>
+ 
+- product_name: Version 1.21.10
+  updated_date: April 22 2020
+  changelog: <li><i class="changelog-fix"></i> Adding new CLASS 'SYSargsList'</li>
+             <li><i class="changelog-fix"></i> Adding new Methods 'codeSteps', 'projectWF', 'statusWF', 'stepsWF', 'SYSargs2_steps', 'sysargslist', 'sysconfig'</li>
+             <li><i class="changelog-fix"></i> Adding New functions 'config.param', 'configWF', 'initProject', 'initWF', 'subsetRmd', 'SYSproject'</li>
+             <li><i class="changelog-bug"></i> Updating 'SYScreate'</li>
+             
+- product_name: Version 1.21.9
+  updated_date: April 21 2020
+  changelog: <li><i class="changelog-fix"></i> Adding new utilities functions 'evalCode', 'tryPath', 'tryCL'</li>
+       
+- product_name: Version 1.21.8
+  updated_date: April 21 2020
+  changelog: <li><i class="changelog-fix"></i> Deprecated for 'SYSargs2Pipe-class'; it will be replaced for 'SYSargsList'</li>
+  
+- product_name: Version 1.21.7
+  updated_date: April 18 2020
+  changelog: <li><i class="changelog-bug"></i> BugFix in citation file</li>
+            <li><i class="changelog-fix"></i> Replace name SYSargs2list methods to sysargs2 methods</li>
+
+- product_name: Version 1.21.6
+  updated_date: March 30 2020
+  changelog: <li><i class="changelog-bug"></i> BugFix 'runCommandline' function </li>
+            <li><i class="changelog-bug"></i> R BugFix 'output_update' function</li>
+
+- product_name: Version 1.21.5
+  updated_date: March 23 2020
+  changelog: <li><i class="changelog-bug"></i> BugFix 'renderWF' function </li>
+
+- product_name: Version 1.21.4
+  updated_date: April 21 2020
+  changelog: <li><i class="changelog-bug"></i> BugFix 'runCommandline' function (modulecmd) </li>
+
+- product_name: Version 1.21.3
+  updated_date: March 04 2020
+  changelog: <li><i class="changelog-bug"></i> 'mergeBamByFactor' accepting "FileName" column in any position </li>
+            <li><i class="changelog-bug"></i> R BugFix 'output_update' function</li>
+
+- product_name: Version 1.21.2
+  updated_date: Feb 10 2020
+  changelog: <li><i class="changelog-bug"></i> BugFix  'run_edgeR' and 'run_DESeq2' functions (R4.0) </li>
+
+
+
+

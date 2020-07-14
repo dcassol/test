@@ -1,0 +1,28 @@
+- name: Thomas Girke
+  url: http://girke.bioinformatics.ucr.edu/
+  designation: PI
+  image_url: https://avatars0.githubusercontent.com/u/1336916?s=400&u=8fa9ede9f2f28607ce9e0db83ac1b5b50d2357c7&v=4
+  github_url: https://github.com/tgirke/
+  twitter_url: https://twitter.com/tgirke
+
+- name: Daniela Cassol
+  url: https://www.dcassol.com/
+  designation: PostDoc
+  image_url: https://avatars1.githubusercontent.com/u/12722576?s=400&u=092906a3361e7c736e10e3ffab7b60c436cbc56d&v=4
+  github_url: https://github.com/dcassol/
+  twitter_url: https://twitter.com/danicassol
+
+- name: Le Zhang
+  url: https://www.lezhang.me
+  designation: PhD Candidate
+  image_url: https://avatars2.githubusercontent.com/u/35240440?s=400&u=7dc9f767799cb4f6a1cb584130acc9938f089146&v=4
+  github_url: https://github.com/lz100
+#  twitter_url: https://twitter.com
+#  instagram_url: https://instagram.com/
+#  linkedin_url: https://facebook.com/
+  
+- name: Ponmathi Ramasamy
+  url: https://mathrj.github.io/
+  designation: Undergraduate Student
+  image_url: https://avatars2.githubusercontent.com/u/45085174?s=400&u=3b9794f20c54948504a261fc7c9c17bdda3a5e1f&v=4
+  github_url: https://github.com/mathrj

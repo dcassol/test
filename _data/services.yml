@@ -1,0 +1,20 @@
+- title: systemPipeR
+  icon: /assets/images/systemPipeR.png
+  description:  Workflow and Report Generation Environment
+  button_label: Explore
+  url: /docs/systemPipeR/
+
+- title: Workflow Colletion
+  icon: /assets/images/workflow-1.png
+  description:  Check out the available pre-configured pipelines
+  button_label: Read Docs
+  url: /pages/pipelines_area/
+  
+- title: Graphical User Interface
+  icon: /assets/images/shiny.png
+  description: <i>systemPipeShiny</i>  - Interactive Workflow Wanagement and Results Visualization
+  button_label: Explore
+  url: /docs/systemPipeShiny-introduction/
+  
+
+  

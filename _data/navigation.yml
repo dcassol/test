@@ -1,0 +1,53 @@
+#Please use the main menu items under the "text"
+
+- text: systemPipeR
+  url: /docs/systemPipeR
+  submenu:
+  - text: Introduction
+    url: /docs/systemPipeR-introduction
+  - text: Vignette
+    url: /docs/systemPipeR
+  - text: Changelog
+    url: /pages/changelog
+  - text: Timeline
+    url: /pages/timeline_area
+- text: Workflows
+  url: /pages/pipelines_area
+  submenu:
+  - text: RNA-Seq
+    url: https://systempiper.github.io/systemPipeRNAseq/articles/systemPipeRNAseq.html
+  - text: ChIP-Seq
+    url: https://systempiper.github.io/systemPipeChIPseq/articles/systemPipeChIPseq.html
+  - text: RIBO-Seq
+    url: /https://systempiper.github.io/systemPipeRIBOseq/articles/systemPipeRIBOseq.html
+  - text: VAR-Seq
+    url: https://systempiper.github.io/systemPipeVARseq/articles/systemPipeVARseq.html
+- text: systemPipeShiny
+  url: /
+  submenu:
+  - text: Introduction
+    url: /docs/systemPipeShiny-introduction
+  - text: Graphical User Interface
+    url: /docs/systemPipeShiny
+- text: Training 
+  url: /
+  submenu:
+  - text: Training Events
+    url: /docs/training
+  - text: Videos Tutorials 
+    url: /docs/videos
+- text: News
+  url: /docs/news
+- text: About
+  url: /
+  submenu:
+  - text: Our Team
+    url: /team
+  - text: Publications
+    url: /docs/publications
+  - text: Acknowledgement
+    url: /docs/acknowledgement/  
+  - text: FAQ
+    url: /pages/faq 
+  - text: Contact
+    url: /pages/contact
