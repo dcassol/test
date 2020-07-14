@@ -35,7 +35,6 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-archives
-  - jekyll-toc
   - jekyll-seo-tag  
 
 collections:
